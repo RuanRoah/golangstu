@@ -30,7 +30,7 @@ func (s ByLength) Less(i, j int) bool {
 
 // 一切都准备好了，我们现在可以通过将原始的 `fruits` 切片转型成 `ByLength` 来实现我们的自定排序了。然后对这个转型的切片使用 `sort.Sort` 方法。
 func main() {
-	fruits := []string{"peach", "banana", "kiwi"}
+	fruits := []string{"roah", "yuedou", "yanjun"}
 	sort.Sort(ByLength(fruits))
 	fmt.Println(fruits)
 }
